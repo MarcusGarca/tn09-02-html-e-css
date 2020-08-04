@@ -1,114 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b907dcbb89.js" crossorigin="anonymous"></script>
 
-    <title>Primeira Página Web</title>
+    <title>MarcusGarca</title>
 </head>
 
 <body>
     <header>
-
-        <h1 class="profissao">Programador Web Junior</h1>
-
-        <div class="intro">
-            <img src="avatar.png" alt="" width="200" height="200">
+        <div class="menu" id="topo">
+            <div class="eu">
+                Marcus Garcia
+            </div>
+            <div class="menu1">
+                <ul>
+                    <li><a href="#sobreMim" class="quem-sou">Sobre mim</a></li>
+                    <li><a href="#projetos" class="projeto">Projetos</a></li>
+                    <li><a href="#depoimentos" class="depoimento">Depoimentos</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="contato">
-            <ul type="circle">
-                <li type="none">
-                    <p class="eu">Marcus Garcia</p>
-                </li>
-                <li><a href="tel:++ 55 85 98822-1406" target="_blanck">Meu Telefone</a></li>
-                <li><a href="mailto:marcusg.contabil@gmail.com" target="_blanck">Meu E-mail</a></li>
-                <li><a href="https://www.linkedin.com/in/marcus-garcia-81b529140/" target="_blanck">Meu
-                        Linkedlin</a>
-                </li>
-                <li><a href="https://wa.me/+5585988221406?text=%E2%9D%A4%20Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A"
-                        target="_blank" rel="noopener noreferrer">Manda um Zap!</a>
-                </li>
+        <div class="foto-perfil">
+            <img class="minha-foto" src="fotoperfil.jpg" alt="">
+        </div>
+        <div class="meu-contato">
+            <a href="https://github.com/MarcusGarca" target="_blanck"><i class="fa fa-github fa-2x  icones"></i></a>
+            <a href="https://www.linkedin.com/in/marcus-garcia-81b529140/" target="_blanck"><i
+                    class="fa fa-linkedin fa-2x  icones"></i></a>
+            <a href="mailto:marcusg.contabil@gmail.com"><i class="fa fa-envelope fa-2x  icones"></i></a>
+            <a href="tel:+5585988221406"><i class="fa fa-phone fa-2x  icones"></i></a>
             </ul>
         </div>
-
     </header>
+
     <main>
-        <!--SOBRE-->
-        <section>
-            <h2>SOBRE</h2>
-            <p>Meu Nome é Marcus Garcia, moro em Fortaleza-CE, almejo obter a minha primeira experiência como
-                Desenvolvedor Web Júnior.</p>
-        </section>
-        <!--SKILLS-->
-        <section>
-            <h2>SKILLS</h2>
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Determinado</li>
-                <li>Proativo</li>
-                <li>Trabalho em Equipe</li>
-            </ul>
-            <h3>Hard Skills</h3>
-            <ul>
-                <h4>FrontEnd</h4>
-                <ul>
-                    <li>HTML básico</li>
-                    <li>CSS básico</li>
-                    <li>JS básico</li>
-                </ul>
-                <h4>BackEnd</h4>
-                <ul>
-                    <li>Node.js (Em curso)</li>
-                </ul>
-            </ul>
-        </section>
-        <!--FORMAÇÃO-->
-        <section>
-            <h2>FORMAÇÃO</h2>
-            <table>
-                <caption>
-                <tr>
-                    <th colspan="3">Especificações</th>
 
-                </tr>
-                <tr>
-                    <td>CURSO</td>
-                    <td>INSTITUIÇÃO</td>
-                    <td>TIPO</td>
-                </tr>
-                <tr>
-                    <td>Desenvolvedor Web Full Stack</td>
-                    <td>Digital House</td>
-                    <td>Profissionalizante</td>
-                </tr>
-                
-                </caption>
-            </table>
-        </section>
-        <!--EXPERIÊNCIA-->
-        <section>
-            <h2>EXPERIÊNCIA</h2>
-            <table>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+        <div class="sobre-mim" id="sobreMim">
+            <h2>Sobre mim</h2>
+            <p class="textobranco">Meu nome é Marcus Garcia, sou Desenvolvedor Web Júnior em formação na <a
+                    class="escola" href="https://www.digitalhouse.com/br/" target="_blanck">Digital House</a>, possuo
+                conhecimentos básicos
+                de HTML, CSS e JavaScript. Estou em busca de uma primeira oportunidade de trabalho na área de
+                programação
+                web.</p>
 
-            </table>
-        </section>
+        </div>
+        <div class="meu-projeto" id="projetos">
+            <h2>Projetos</h2>
+            <img class="calcirrf" src="projeto1.png" alt=""><br>
+            <a href="https://github.com/MarcusGarca/Calculo_IRRF" target="_blanck"><input class="botaocodigo"
+                    type="button" value="Códigos"></a>
+            <a href="https://marcusgarca.github.io/Calculo_IRRF/" target="_blanck"><input class="botaoprojeto"
+                    type="button" value="Projeto"></a>
+            <p>Esse é o meu primeiro projeto. É uma calculadora de Imposto de renda (mensal) retido na fonte com a opção
+                de considerar, ou não, o cálculo do INSS adotando a regra da Portaria ME 914/2020. Tecnologias:
+            </p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+        </div>
+
     </main>
-    <hr>
-</body>
-<footer>
-    <p>Marcus Garcia 2020 - &copy; | <a href="mailto:marcusg.contabil@gmail.com"
-            target="_blanck">marcusg.contabil@gmail.com</a></p>
+    <footer>
+        <p>Marcus Garcia 2020 - &copy; | <a href="mailto:marcusg.contabil@gmail.com"
+            target="_blanck">marcusg.contabil@gmail.com</a> | <a class ="inicio" href="#topo"><i class="fa fa-home fa-2x"></i></a></p>
+    </footer>
 
-</footer>
+</body>
+
+</html>

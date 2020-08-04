@@ -21,7 +21,7 @@ Acesse o diretório onde o repositório deve ser clonado através do terminal. E
 Basta digitar `git clone` e acessar o repositório, copiar o link para **Clonar** e colar nesse mesmo comando. Ou, simplesmente, digitar:
 
 ``` sh
- git clone https://github.com/Marcelo-Diament/tn09-02-html-e-css.git
+ git clone https://github.com/MarcusGarca/tn09-02-html-e-css.git
 ```
 
 Por fim, acesse a pasta do repositório e abra o VS Code dentro da mesma. Basta utilizar esses dois comandos a seguir:

@@ -3,13 +3,15 @@ body {
 }
 
 header {
-    margin-top: 0px;
     height: 410px;
+    width: auto;
     background-color: rgb(25, 25, 112);
+    margin-bottom: 0;
 }
 
 .menu {
     margin-top: 0px;
+    margin-bottom: 0px;
     background-color: rgb(65, 65, 65);
     color: white;
     font-size: x-large;
@@ -36,7 +38,7 @@ ul {
     cursor: pointer;
     float: left;
     margin-left: 70px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .projeto {
@@ -44,7 +46,7 @@ ul {
     cursor: pointer;
     margin-left: 70px;
     float: left;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .depoimento {
@@ -52,7 +54,7 @@ ul {
     cursor: pointer;
     margin-left: 70px;
     float: left;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .foto-perfil {
@@ -139,13 +141,17 @@ ul {
 }
 
 footer {
+    height: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
     font-size: large;
-    vertical-align: middle;
-    display:table;
-    margin-left: 30%;
+    margin-left: 0;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
 }
-.inicio{
+
+.inicio {
     color: black;
+    margin: 0 auto;
 }
